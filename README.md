@@ -8,13 +8,13 @@ In this example, you'll learn how to integrate web3sdkio components from your Ne
 
 ## Deploy your own
 
-Deploy your own with [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/makeswift/makeswift/tree/main/examples/web3sdkio&project-name=makeswift-web3sdkio-example&repository-name=makeswift-web3sdkio-example&env=MAKESWIFT_SITE_API_KEY&envDescription=The%20API%20key%20for%20your%20Makeswift%20site&envLink=https%3A%2F%2Fwww.makeswift.com%2Fdocs%2Fguides%2Fgetting-started%23configure-the-makeswift-site-api-key) or preview live with [StackBlitz](https://stackblitz.com/github/makeswift/makeswift/tree/main/examples/web3sdkio)
+Deploy your own with [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/makeswift/makeswift/tree/main/examples/web3sdkio&project-name=makeswift-web3sdkio-template&repository-name=makeswift-web3sdkio-template&env=MAKESWIFT_SITE_API_KEY&envDescription=The%20API%20key%20for%20your%20Makeswift%20site&envLink=https%3A%2F%2Fwww.makeswift.com%2Fdocs%2Fguides%2Fgetting-started%23configure-the-makeswift-site-api-key) or preview live with [StackBlitz](https://stackblitz.com/github/makeswift/makeswift/tree/main/examples/web3sdkio)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/makeswift/makeswift/tree/main/examples/web3sdkio&project-name=makeswift-web3sdkio-example&repository-name=makeswift-web3sdkio-example&env=MAKESWIFT_SITE_API_KEY&envDescription=The%20API%20key%20for%20your%20Makeswift%20site&envLink=https%3A%2F%2Fwww.makeswift.com%2Fdocs%2Fguides%2Fgetting-started%23configure-the-makeswift-site-api-key)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/makeswift/makeswift/tree/main/examples/web3sdkio&project-name=makeswift-web3sdkio-template&repository-name=makeswift-web3sdkio-template&env=MAKESWIFT_SITE_API_KEY&envDescription=The%20API%20key%20for%20your%20Makeswift%20site&envLink=https%3A%2F%2Fwww.makeswift.com%2Fdocs%2Fguides%2Fgetting-started%23configure-the-makeswift-site-api-key)
 
 ## Tools
 
-- [**React SDK**](https://docs.web3sdk.io/react): to enable users to connect their wallets with the [useMetamask](https://portal.web3sdk.io/react/react.usemetamask) hook, and access hooks such as [useNFTDrop](https://portal.web3sdk.io/react/react.usenftdrop) to interact with the NFT drop contract.
+- [**React SDK**](https://docs.web3sdk.io/react): to enable users to connect their wallets with the [useMetamask](https://docs.web3sdk.io/react/react.usemetamask) hook, and access hooks such as [useNFTDrop](https://docs.web3sdk.io/react/react.usenftdrop) to interact with the NFT drop contract.
 - [**TypeScript SDK**](https://docs.web3sdk.io/typescript): to view the claimed supply, total supply, and mint NFTs from the drop.
 - [**Makeswift SDK**](https://www.makeswift.com/docs): to register components into Makeswift's visual builder.
 
@@ -59,7 +59,7 @@ Deploy your own with [Vercel](https://vercel.com/new/git/external?repository-url
 
    With the NFT drop component selected, paste your NFT drop contract address from Web3sdkio into the "Contract address" panel and select the correct chain.
 
-   > If you don't have an NFT drop contract, [read this guide](https://portal.web3sdk.io/guides/release-an-nft-drop-with-no-code#create-a-drop-contract) to learn how to create one using Web3sdkio without any code.
+   > If you don't have an NFT drop contract, [read this guide](https://docs.web3sdk.io/guides/release-an-nft-drop-with-no-code#create-a-drop-contract) to learn how to create one using Web3sdkio without any code.
 
 ---
 
